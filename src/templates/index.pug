@@ -1,0 +1,42 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.home_banner
+		.container.p-0
+			.title
+				.row
+					.col-md-3
+						img.img-fluid(src="./img/logo.png", alt="logo")
+					.col-md-9
+						h1 About
+						p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius omnis nesciunt dolorem nostrum fugit veritatis nobis eos doloribus provident magnam voluptatibus quis, iste magni ad officiis unde id alias vel!
+	section.home_sevices
+		.container
+			.content
+				.row
+					.col-md-3.p-0
+						.menu1
+							ul
+								li
+									a(href="#") About Us
+								li
+									a(href="#") How we work
+								li
+									a(href="#") Testimonials
+								li
+									a(href="#") Contact Support
+					.col-md-9.p-0
+						.content1
+							h2 How We Work
+							p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo placeat tenetur odit maxime nemo saepe, reiciendis velit! Sequi, voluptas ratione, ipsa maiores corrupti minima autem dolorum consectetur iusto voluptates quam!
+							p Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nemo. Ipsa odit nulla quae asperiores iure placeat rerum illo magnam, doloremque doloribus accusantium ut quo sint voluptate laudantium minus maxime?
+							p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi dicta tempore laudantium ab, sint repellendus distinctio nulla inventore assumenda porro natus corrupti impedit enim, soluta fugiat voluptate, quis minima ex?
+							
+
+
+
